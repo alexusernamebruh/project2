@@ -1,0 +1,223 @@
+
+ 
+    
+
+    
+    <Html>  
+    <body>
+    <Head>      
+    <Title>     
+    home
+    </Title>  
+    <link href=“index.css” rel=“stylesheet” type=“text/css”>
+    <br></br>
+    <div class="container">
+        <div class="typed-out">Welcome to my website I guess?</div></div>
+    <style>
+.doge {color: rgb(230, 147, 121);; font-weight:500;font-size:medium;text-align:center;justify-content: center;}
+        body{
+    
+    font-family: 'Trebuchet MS', sans-serif; 
+  }
+  .container{
+    display: inline-block;
+    color:white;
+  }
+  .typed-out{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    animation: 
+      typing 2s forwards;
+    font-size: 1.6rem;
+    width: 0;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  ul {
+    
+    display: table;
+    margin: 70px auto;
+    padding: 5px 20px;
+    border-radius: 3px;
+  width: 70%;
+}
+ul li {
+    list-style: none;
+    display: inline-block;
+  margin-left: 10px;
+}
+ul li a {
+    font-family: arial;
+    color: #8BE3F3;
+    text-decoration: none;
+    position: relative;
+    padding: 4px 5px;
+    font-size: 15px;
+    display: block;
+}
+ul li a + a {
+    margin-left: 16px;
+}
+ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 4px;
+    background-color: #81f0a2;
+    transform-origin: bottom right;
+    transition: transform 0.5s ease;
+    transform: scaleX(0);
+    color:aqua;
+}
+ul a:hover::after {
+    transform-origin: bottom left;
+    transform: scaleX(1);
+    color:aqua;
+}
+        .emage {text-align:center;}
+        .typewrite-text {color:white}
+        body {
+          background-image: url('https://www.woofaa.com/wp-content/uploads/2019/07/bright_sun_spot.gif') ;
+          
+          background-repeat: no-repeat;
+          background-attachment: fixed;  
+          background-size: cover;
+        }
+        header {  
+    background-color: #75c67a;  
+    position: fixed;  
+    left: 0;  
+    right: 0;  
+    top: 5px;  
+    height: 30px;  
+    display: flex;  
+    align-items: center;  
+    box-shadow: 0 0 25px 0 black;  
+    }  
+    header * {  
+    display: inline;  
+    }  
+    header li {  
+    margin: 20px;  
+    }  
+    header li a {  
+    color: #ffffff;  
+    text-decoration: none;  
+    }  
+    .ead {color:white;
+    font-weight:999;}
+    
+        </style>
+    </Head>  
+    
+    <header>  
+    <nav>  
+    <ul>  
+    <li>  
+    <a href="home.html"> Home </a>  
+    </li>  
+    <li>  
+    <a href="about.html"> About </a>  
+    </li>  
+    <li>  
+    <a href="contact.html"> Contact </a>  
+    </li>  
+    <li> <a href="termsofuse.html"> Terms of use </a>  
+    </li>  
+    <li>  
+    <a href="joinus.html"> Join Us</a>  
+    </li>  
+    
+    
+    </nav>  
+    </header>  
+    <h1>e</h1>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    
+    <div class='cursor' id="cursor"></div>
+    
+    <div class="image1">
+    <img src=""/>
+    </div>
+    </div class="fixed"></div>
+    <div class="bob"><h6>hello world</h6></div>
+    
+    <div class="doge">
+  <h1>Where dogs originated</h1>
+  <p>We know dogs evolved from wolves, and researchers and geneticists have extensively studied canines to try and pin down the exact moment in history when the first dog walked the Earth.</p>
+  <p>Archaeological evidence and DNA analysis make the Bonn-Oberkassel dog the first undisputed example of a dog. The remains, a right mandible (jaw), were discovered during basalt quarrying in Oberkassel, Germany in 1914. First mistakenly classified as a wolf, the Bonn-Oberkassel dog was buried with two humans around 14,220 years ago.
+
+    However, there are other theories that suggest dogs may in fact be older. For example, many experts agree that dogs started to separate from wolves starting around 16,000 years before present in Southeastern Asia. The progenitors of the dogs we know and love today may have first appeared in the regions of modern-day Nepal and Mongolia at a time when humans were still hunter-gatherers.
+    
+    Additional evidence suggests that around 15,000 years ago, early dogs moved out of Southern and Central Asia and dispersed around the world, following humans as they migrated.</p>
+  <p>Hunting camps in Europe are also thought to be home to canines known as Paleolithic dogs. These canines first appeared some 12,000 years ago and had different morphological and genetic features than the wolves found in Europe at the time. In fact, a quantitative analysis of these canine fossils found that the dogs had skulls similar in shape to that of the Central Asian Shepherd Dog.
+
+    Overall, while the Bonn-Oberkassel dog is the first dog we can all agree was in fact a dog, it’s possible dogs are much older. But until we uncover more evidence, it will be difficult to know for sure exactly when dogs completely separated from their wolf ancestors.
+    
+    </p></div>
+    <div class='sushi'>
+  <img src="https://th.bing.com/th/id/OIP.A6IsvjAenj85f5Dv1qv7NQHaE2?w=283&h=185&c=7&r=0&o=5&dpr=2&pid=1.7"></div>
+<script>
+
+var cursor = document.getElementById("cursor");
+document.body.addEventListener("mousemove", function (e) {
+  (cursor.style.left = e.clientX + "px"), (cursor.style.top = e.clientY + "px");
+});
+
+console.log("e");
+
+
+var i = 0;
+var txt = 'everything on this website, from the simpliest to the hardest things, were made from what I have learned, on march 7th, I could learn about deep javascript, which means I can do much more with it';
+var speed = 100;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+
+
+
+function reveal() {
+    var reveals = document.querySelectorAll(".reveal");
+  
+    for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals[i].getBoundingClientRect().top;
+      var elementVisible = 150;
+  
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("active");
+      } else {
+        reveals[i].classList.remove("active");
+      }
+    }
+  }
+  
+  window.addEventListener("scroll", reveal);
+</script>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<p>e</p>
+    </body>
+    </Html>  
+    
